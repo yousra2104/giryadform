@@ -1,0 +1,35 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+    --giryad-green: #399337;
+    --giryad-dark-blue: #015590;
+    --giryad-medium-blue: #015590;
+}
+
+.bg-giryad-green {
+    background-color: var(--giryad-green);
+}
+
+.text-giryad-green {
+    color: var(--giryad-green);
+}
+
+.focus\:ring-giryad-green:focus {
+    --tw-ring-color: var(--giryad-green);
+}
+
+.focus\:border-giryad-green:focus {
+    border-color: var(--giryad-green);
+}
+
+
+
+.text-giryad-dark-blue {
+    color: var(--giryad-dark-blue);
+}
+
+.bg-giryad-medium-blue {
+    background-color: var(--giryad-medium-blue);
+}
